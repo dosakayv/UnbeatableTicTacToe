@@ -124,7 +124,7 @@ window.onload = function () {
 		});
 		var selectors = winningCombinationArray.join(", ");
 		
-		$(selectors).css("background-color", "green");
+		$(selectors).css("background-color", "#FFC107");
 
 		// unregister all the clicks in the board
 		unregisterGridSelectionEvent();
